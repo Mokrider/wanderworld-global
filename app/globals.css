@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-linen text-ink font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink;
+  }
+
+  ::selection {
+    @apply bg-amber/20 text-ink;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #b97a3d;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-xs uppercase tracking-widest2 text-amber-dark font-semibold;
+  }
+
+  .hairline {
+    @apply border-t border-ink/10;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-ink text-linen px-6 py-3 text-sm tracking-wide uppercase hover:bg-charcoal transition-colors duration-200;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-ink/30 text-ink px-6 py-3 text-sm tracking-wide uppercase hover:border-ink hover:bg-ink hover:text-linen transition-colors duration-200;
+  }
+
+  .card-editorial {
+    @apply bg-cream border border-ink/10 hover:border-amber/50 transition-colors duration-300;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

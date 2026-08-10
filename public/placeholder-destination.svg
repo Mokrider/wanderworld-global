@@ -1,0 +1,14 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#F4EDE3"/>
+  <g opacity="0.9" stroke="#C9895B" stroke-width="3" fill="none">
+    <path d="M120 920 L360 700 L520 840 L720 560 L900 780 L1080 640" />
+  </g>
+  <circle cx="880" cy="420" r="70" fill="#C9895B" opacity="0.55"/>
+  <g opacity="0.7" stroke="#8A7A68" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="540" y="1040" width="120" height="90" rx="6"/>
+    <circle cx="600" cy="1085" r="22"/>
+    <path d="M568 1040 L580 1015 L620 1015 L632 1040"/>
+  </g>
+  <text x="600" y="1180" font-family="Georgia, serif" font-size="30" fill="#2A241F" fill-opacity="0.65" text-anchor="middle">Photo coming soon</text>
+  <text x="600" y="1420" font-family="Georgia, serif" font-size="26" fill="#8A7A68" fill-opacity="0.6" text-anchor="middle">WanderWorld Global</text>
+</svg>
