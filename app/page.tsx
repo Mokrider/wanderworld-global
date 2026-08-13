@@ -32,14 +32,15 @@ export default async function HomePage() {
         */}
         <div className="absolute inset-0 -z-10">
           <SafeImage
-            src="https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/wanderworld/hero-bg.jpg"
+            src="https://res.cloudinary.com/guztuuuw/image/upload/wanderworld/hero-bg.jpg"
             alt=""
             fill
             priority
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/50 to-ink/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/70 to-ink/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-ink/20 to-transparent" />
         </div>
 
         <div className="mx-auto max-w-7xl px-6 lg:px-10 pt-16 pb-16 lg:pt-24 lg:pb-20">
