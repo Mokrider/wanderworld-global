@@ -32,7 +32,7 @@ export default async function HomePage() {
         */}
         <div className="absolute inset-0 -z-10">
           <SafeImage
-            src="https://res.cloudinary.com/YOUR_CLOUD_NAME/image/upload/wanderworld/hero-bg.jpg"
+            src="https://res.cloudinary.com/guztuuuw/image/upload/wanderworld/hero-bg.jpg"
             alt=""
             fill
             priority
