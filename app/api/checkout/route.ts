@@ -20,7 +20,7 @@ const bodySchema = z.object({
   guestName: z.string().min(1).max(200),
   guestEmail: z.string().email(),
   guestPhone: z.string().max(40).optional(),
-  provider: z.enum(["stripe", "paystack", "paypal", "mpesa", "intasend"]),
+  provider: z.enum(["stripe", "paystack", "paypal", "mpesa", "intasend", "nowpayments"]),
   tripId: z.string().optional(),
   pointsToRedeem: z.number().int().min(0).optional(),
   payerName: z.string().min(1).max(200).optional(),
@@ -111,7 +111,7 @@ export async function POST(req: NextRequest) {
       description: `${hotel.name} — ${booking.nights} night${booking.nights > 1 ? "s" : ""}`,
       successUrl: `${origin}/booking/confirmation?bookingId=${booking.id}`,
       cancelUrl: `${origin}/booking/${hotel.slug}?checkIn=${input.checkIn}&checkOut=${input.checkOut}&guests=${input.guests}`,
-      callbackUrl: `${origin}/api/webhooks/mpesa`,
+      callbackUrl: `${origin}/api/webhooks/${providerId}`,
     });
 
     await attachPayment({
