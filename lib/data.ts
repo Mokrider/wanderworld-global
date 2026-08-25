@@ -1565,3 +1565,4 @@ export function getHotelsForDestination(slug: string) {
 
 export function getHotel(slug: string) {
   return HOTELS.find((h) => h.slug === slug);
+}
