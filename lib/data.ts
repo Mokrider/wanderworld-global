@@ -353,7 +353,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Juba",
     country: "South Sudan",
     tagline: "The White Nile's riverside capital, still finding its rhythm",
-    image: "/placeholder-destination.svg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Juba%20City.jpg?width=1600",
     fromPrice: 22,
   },
   {
@@ -361,7 +361,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Maputo",
     country: "Mozambique",
     tagline: "Portuguese-tiled avenues, prawn markets, and an Indian Ocean waterfront",
-    image: "/placeholder-destination.svg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maputo.jpg?width=1600",
     fromPrice: 24,
   },
   {
@@ -369,7 +369,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kinshasa",
     country: "DR Congo",
     tagline: "The Congo River's sprawling capital, music spilling out of every corner",
-    image: "/placeholder-destination.svg",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kinshasa%20city.jpg?width=1600",
     fromPrice: 25,
   },
 ];
@@ -1565,4 +1565,3 @@ export function getHotelsForDestination(slug: string) {
 
 export function getHotel(slug: string) {
   return HOTELS.find((h) => h.slug === slug);
-}
