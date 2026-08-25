@@ -38,6 +38,7 @@ export function CheckoutForm({
   const [error, setError] = useState<string | null>(null);
 
   const isMpesa = provider === "mpesa";
+  const requiresPhone = provider === "mpesa" || provider === "intasend";
 
   // Display-only — the server recomputes and enforces this independently,
   // so nothing here needs to be trusted, just accurate enough to show.
@@ -61,7 +62,7 @@ export function CheckoutForm({
       );
       return;
     }
-    if (isMpesa && !phone.trim()) {
+    if (requiresPhone && !phone.trim()) {
       setError("A phone number is required to pay with M-Pesa.");
       return;
     }
@@ -180,7 +181,7 @@ export function CheckoutForm({
               </p>
             </>
           )}
-          {isMpesa && (
+          {requiresPhone && (
             <label className="block sm:col-span-2">
               <span className="block text-xs text-ink/60 mb-1.5">
                 M-Pesa phone number
