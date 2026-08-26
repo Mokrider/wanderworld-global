@@ -32,7 +32,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Kenya",
     tagline: "Swahili stone towns and dhow-lined shores",
     image:
-      "https://images.unsplash.com/photo-1516426122078-c23e76319801?q=80&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Above%20view%20of%20the%20town%20of%20Lamu.jpg?width=1600",
     fromPrice: 140,
   },
   {
@@ -41,7 +41,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Tanzania",
     tagline: "Spice markets, coral reefs, and old-town alleys",
     image:
-      "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Stone%20Town-2.jpg?width=1600",
     fromPrice: 165,
   },
   {
@@ -50,7 +50,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Morocco",
     tagline: "Riads, souks, and the foothills of the Atlas",
     image:
-      "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Koutoubia%20Mosque%2CMarrakech%2CMorocco.jpg?width=1600",
     fromPrice: 120,
   },
   {
@@ -59,7 +59,7 @@ export const DESTINATIONS: Destination[] = [
     country: "South Africa",
     tagline: "Table Mountain, winelands, and the Atlantic seaboard",
     image:
-      "https://images.unsplash.com/photo-1635260980154-315c57168b12?q=80&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Town%20skyline%20with%20Table%20Mountain.jpg?width=1600",
     fromPrice: 190,
   },
   {
@@ -68,7 +68,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Portugal",
     tagline: "Tiled facades, hill trams, and river light",
     image:
-      "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?q=80&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Interlaced%20tram%20tracks%20in%20Alfama%2C%20Lisbon.jpg?width=1600",
     fromPrice: 175,
   },
   {
@@ -77,7 +77,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Indonesia",
     tagline: "Rice terraces, temples, and long coastlines",
     image:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tegallalang%20Rice%20Terraces%20Bali%201.jpg?width=1600",
     fromPrice: 95,
   },
   {
@@ -85,7 +85,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kyoto",
     country: "Japan",
     tagline: "Machiya streets, temple gardens, and slow tea",
-    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/FushimiInariTorii.jpg?width=1600",
     fromPrice: 180,
   },
   {
@@ -93,7 +93,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Bangkok",
     country: "Thailand",
     tagline: "River temples, night markets, and elevated trains",
-    image: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Wat%20Arun%20Ratchawararam%20Ratchawaramahawihan%20Temple.jpg?width=1600",
     fromPrice: 85,
   },
   {
@@ -101,7 +101,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Reykjavik",
     country: "Iceland",
     tagline: "Geothermal pools, black sand, and endless light",
-    image: "https://images.unsplash.com/photo-1504829857797-ddff29c27927?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hallgrimskirkja1%20RVG.JPG?width=1600",
     fromPrice: 210,
   },
   {
@@ -109,7 +109,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Santorini",
     country: "Greece",
     tagline: "Caldera villages, blue domes, and volcanic cliffs",
-    image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Oia%20Santorini%20Blue%20Domes.jpg?width=1600",
     fromPrice: 260,
   },
   {
@@ -117,7 +117,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Rome",
     country: "Italy",
     tagline: "Ruins, trattorias, and evenings on cobblestone",
-    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Colosseum%20in%20rome.jpg?width=1600",
     fromPrice: 190,
   },
   {
@@ -125,7 +125,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Barcelona",
     country: "Spain",
     tagline: "Gothic alleys, Gaudi facades, and late dinners",
-    image: "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sagrada%20familia%20BCN%2001.jpg?width=1600",
     fromPrice: 170,
   },
   {
@@ -133,7 +133,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Paris",
     country: "France",
     tagline: "Zinc rooftops, corner cafes, and river walks",
-    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Tour%20Eiffel%20Wikimedia%20Commons.jpg?width=1600",
     fromPrice: 240,
   },
   {
@@ -141,7 +141,7 @@ export const DESTINATIONS: Destination[] = [
     name: "New York City",
     country: "United States",
     tagline: "Avenue blocks, corner delis, and rooftop skylines",
-    image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20City%20skyline.jpg?width=1600",
     fromPrice: 320,
   },
   {
@@ -149,7 +149,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Mexico City",
     country: "Mexico",
     tagline: "Mural-lined avenues, taquerias, and jacaranda streets",
-    image: "https://images.unsplash.com/photo-1518659526054-190340b32735?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Cathedral%20of%20Mexico%20City%20IMG%207049.JPG?width=1600",
     fromPrice: 110,
   },
   {
@@ -157,7 +157,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Rio de Janeiro",
     country: "Brazil",
     tagline: "Beach promenades, granite peaks, and samba nights",
-    image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Christ%20the%20Redeemer%20statue%20at%20Corcovado.JPG?width=1600",
     fromPrice: 145,
   },
   {
@@ -165,7 +165,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Buenos Aires",
     country: "Argentina",
     tagline: "Tango bars, steakhouses, and wide boulevards",
-    image: "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Obelisco%20en%20Buenos%20Aires.JPG?width=1600",
     fromPrice: 120,
   },
   {
@@ -173,7 +173,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Sydney",
     country: "Australia",
     tagline: "Harbour ferries, ocean pools, and sandstone cliffs",
-    image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Opera%20House%2C%20Sydney.jpg?width=1600",
     fromPrice: 230,
   },
   {
@@ -181,7 +181,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Queenstown",
     country: "New Zealand",
     tagline: "Alpine lakes, vineyards, and mountain trails",
-    image: "https://images.unsplash.com/photo-1600466403153-50193d187dde?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Queenstown%20and%20Lake%20Wakatipu.JPG?width=1600",
     fromPrice: 195,
   },
   {
@@ -189,7 +189,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Dubai",
     country: "United Arab Emirates",
     tagline: "Desert dunes, souks, and glass towers by the Gulf",
-    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Dubai%20Skyline%20mit%20Burj%20Khalifa%20(cropped).jpg?width=1600",
     fromPrice: 270,
   },
   {
@@ -197,7 +197,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Istanbul",
     country: "Turkey",
     tagline: "Bazaars, ferries, and minarets over two continents",
-    image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20Hagia%20Sophia%20Sultanahmed.JPG?width=1600",
     fromPrice: 130,
   },
   {
@@ -205,7 +205,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Cusco",
     country: "Peru",
     tagline: "Inca stonework, mountain air, and the gateway to Machu Picchu",
-    image: "https://images.unsplash.com/photo-1531065208531-4036c0dba3ca?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Ciudad%20de%20Cusco.jpg?width=1600",
     fromPrice: 95,
   },
   {
@@ -213,7 +213,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Nairobi",
     country: "Kenya",
     tagline: "Leafy suburbs, rooftop bars, and a national park at the edge of town",
-    image: "https://images.unsplash.com/photo-1611348586804-61bf6c080437?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Nairobi%20skyline.jpg?width=1600",
     fromPrice: 55,
   },
   {
@@ -221,7 +221,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Accra",
     country: "Ghana",
     tagline: "Beach bars, art markets, and Atlantic sunsets",
-    image: "https://images.unsplash.com/photo-1742476126735-cba186771cf2?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Independence%20Square%2C%20Accra%2C%20Ghana.JPG?width=1600",
     fromPrice: 60,
   },
   {
@@ -229,7 +229,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Lagos",
     country: "Nigeria",
     tagline: "Island nightlife, lagoon views, and a skyline that never fully sleeps",
-    image: "https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Third%20Mainland%20Bridge.jpg?width=1600",
     fromPrice: 70,
   },
   {
@@ -237,7 +237,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kigali",
     country: "Rwanda",
     tagline: "Hillside streets, gallery cafes, and the cleanest capital on the continent",
-    image: "https://images.unsplash.com/photo-1687986261123-b17f08f2796c?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kigali.jpg?width=1600",
     fromPrice: 65,
   },
   {
@@ -245,7 +245,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Victoria Falls",
     country: "Zambia",
     tagline: "Spray-soaked cliffs, riverside lodges, and the loudest waterfall in Africa",
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Vic%20Falls%202024.jpg?width=1600",
     fromPrice: 90,
   },
   {
@@ -253,7 +253,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Essaouira",
     country: "Morocco",
     tagline: "Windswept ramparts, blue fishing boats, and a medina by the Atlantic",
-    image: "https://images.unsplash.com/photo-1553603227-2358aabe821e?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Ramparts%20of%20Essaouira.JPG?width=1600",
     fromPrice: 60,
   },
   {
@@ -261,7 +261,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Dakar",
     country: "Senegal",
     tagline: "Cliffside coastline, live mbalax, and colorful ferry crossings",
-    image: "https://images.unsplash.com/photo-1604357209793-fca5dca89f97?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/The%20African%20Renaissance%20Monument.jpg?width=1600",
     fromPrice: 75,
   },
   {
@@ -269,7 +269,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Addis Ababa",
     country: "Ethiopia",
     tagline: "Highland air, coffee ceremonies, and a city built across seven hills",
-    image: "https://images.unsplash.com/photo-1734865934450-719ef6f59a37?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Addis%20Ababa%20City%20view.jpg?width=1600",
     fromPrice: 50,
   },
   {
@@ -277,7 +277,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Serengeti",
     country: "Tanzania",
     tagline: "Endless plains, the great migration, and skies with nothing in the way",
-    image: "https://images.unsplash.com/photo-1728891386152-8cf2f86add34?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Wildebeest%20Migration%20in%20Serengeti%20National%20Park%2C%20Tanzania.jpg?width=1600",
     fromPrice: 180,
   },
   {
@@ -285,7 +285,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Swakopmund",
     country: "Namibia",
     tagline: "German colonial streets where the Namib dunes meet the cold Atlantic",
-    image: "https://images.unsplash.com/photo-1705835254007-628c4d924e23?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Swakopmund%20(Namibia).jpg?width=1600",
     fromPrice: 90,
   },
   {
@@ -293,7 +293,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Cairo",
     country: "Egypt",
     tagline: "The Nile, the old souks, and the last standing wonder of the ancient world",
-    image: "https://images.unsplash.com/photo-1568322445389-f64ac2515020?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/All%20Gizah%20Pyramids.jpg?width=1600",
     fromPrice: 70,
   },
   {
@@ -301,7 +301,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kruger National Park",
     country: "South Africa",
     tagline: "Big Five country, dawn game drives, and bushveld that goes quiet at dusk",
-    image: "https://images.unsplash.com/photo-1586943353950-95bdbe3207a1?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Kruger%20N.P.%2004.jpg?width=1600",
     fromPrice: 150,
   },
   {
@@ -309,7 +309,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Lilongwe",
     country: "Malawi",
     tagline: "The calm capital and the gateway to the Lake of Stars",
-    image: "https://images.unsplash.com/photo-1715948889156-8e7b1ee20231?q=80&w=1200",
+    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilongwe%20(Malawi)%20-%20crafts%20market.JPG?width=1600",
     fromPrice: 55,
   },
   {
@@ -318,7 +318,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Qatar",
     tagline: "Corniche skyline, souq alleys, and desert day trips outside the city",
     image:
-      "https://images.unsplash.com/photo-1683194247996-43897678c94c?fm=jpg&q=60&w=1600&auto=format&fit=crop",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20of%20Doha%20West%20Bay.jpg?width=1600",
     fromPrice: 30,
   },
   {
@@ -327,7 +327,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Kuwait",
     tagline: "Gulf waterfront, historic dhows, and the Towers lit up after dark",
     image:
-      "https://images.unsplash.com/photo-1663000857411-b339585c938b?fm=jpg&q=60&w=1600&auto=format&fit=crop",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Kuwait%20City%20Skyline%201.jpg?width=1600",
     fromPrice: 28,
   },
   {
@@ -336,7 +336,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Oman",
     tagline: "Whitewashed old town wedged between the Hajar mountains and the sea",
     image:
-      "https://images.unsplash.com/photo-1599743777555-e362a2feab39?fm=jpg&q=60&w=1600&auto=format&fit=crop",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/MutrahDecor.JPG?width=1600",
     fromPrice: 26,
   },
   {
@@ -345,7 +345,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Uganda",
     tagline: "Seven hills, lakeside markets, and the gateway to gorilla country",
     image:
-      "https://images.unsplash.com/photo-1675756261486-09bd1e0f6c8a?fm=jpg&q=60&w=1600&auto=format&fit=crop",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Uganda%20-%20Downtown%20Kampala.jpg?width=1600",
     fromPrice: 20,
   },
   {
