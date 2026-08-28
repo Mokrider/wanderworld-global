@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "res.cloudinary.com" },
-      { protocol: "https", hostname: "commons.wikimedia.org" },
+      { protocol: "https", hostname: "upload.wikimedia.org" },
     ],
     // Our own local fallback image (public/placeholder-destination.svg) is an
     // SVG, which next/image blocks by default as an XSS precaution against
