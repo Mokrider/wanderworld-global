@@ -32,7 +32,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Kenya",
     tagline: "Swahili stone towns and dhow-lined shores",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Above_view_of_the_town_of_Lamu.jpg/1200px-Above_view_of_the_town_of_Lamu.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Above_view_of_the_town_of_Lamu.jpg/1280px-Above_view_of_the_town_of_Lamu.jpg",
     fromPrice: 140,
   },
   {
@@ -41,7 +41,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Tanzania",
     tagline: "Spice markets, coral reefs, and old-town alleys",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Stone_Town-2.jpg/1200px-Stone_Town-2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Stone_Town-2.jpg/1280px-Stone_Town-2.jpg",
     fromPrice: 165,
   },
   {
@@ -50,7 +50,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Morocco",
     tagline: "Riads, souks, and the foothills of the Atlas",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Koutoubia_Mosque%2CMarrakech%2CMorocco.jpg/1200px-Koutoubia_Mosque%2CMarrakech%2CMorocco.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Koutoubia_Mosque%2CMarrakech%2CMorocco.jpg/1280px-Koutoubia_Mosque%2CMarrakech%2CMorocco.jpg",
     fromPrice: 120,
   },
   {
@@ -59,7 +59,7 @@ export const DESTINATIONS: Destination[] = [
     country: "South Africa",
     tagline: "Table Mountain, winelands, and the Atlantic seaboard",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Cape_Town_skyline_with_Table_Mountain.jpg/1200px-Cape_Town_skyline_with_Table_Mountain.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Cape_Town_skyline_with_Table_Mountain.jpg/1280px-Cape_Town_skyline_with_Table_Mountain.jpg",
     fromPrice: 190,
   },
   {
@@ -68,7 +68,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Portugal",
     tagline: "Tiled facades, hill trams, and river light",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Interlaced_tram_tracks_in_Alfama%2C_Lisbon.jpg/1200px-Interlaced_tram_tracks_in_Alfama%2C_Lisbon.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Interlaced_tram_tracks_in_Alfama%2C_Lisbon.jpg/1280px-Interlaced_tram_tracks_in_Alfama%2C_Lisbon.jpg",
     fromPrice: 175,
   },
   {
@@ -77,7 +77,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Indonesia",
     tagline: "Rice terraces, temples, and long coastlines",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tegallalang_Rice_Terraces_Bali_1.jpg/1200px-Tegallalang_Rice_Terraces_Bali_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Tegallalang_Rice_Terraces_Bali_1.jpg/1280px-Tegallalang_Rice_Terraces_Bali_1.jpg",
     fromPrice: 95,
   },
   {
@@ -85,7 +85,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kyoto",
     country: "Japan",
     tagline: "Machiya streets, temple gardens, and slow tea",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FushimiInariTorii.jpg/1200px-FushimiInariTorii.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/FushimiInariTorii.jpg/1280px-FushimiInariTorii.jpg",
     fromPrice: 180,
   },
   {
@@ -93,7 +93,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Bangkok",
     country: "Thailand",
     tagline: "River temples, night markets, and elevated trains",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Wat_Arun_Ratchawararam_Ratchawaramahawihan_Temple.jpg/1200px-Wat_Arun_Ratchawararam_Ratchawaramahawihan_Temple.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Wat_Arun_Ratchawararam_Ratchawaramahawihan_Temple.jpg/1280px-Wat_Arun_Ratchawararam_Ratchawaramahawihan_Temple.jpg",
     fromPrice: 85,
   },
   {
@@ -101,7 +101,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Reykjavik",
     country: "Iceland",
     tagline: "Geothermal pools, black sand, and endless light",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Hallgrimskirkja1_RVG.JPG/1200px-Hallgrimskirkja1_RVG.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Hallgrimskirkja1_RVG.JPG/1280px-Hallgrimskirkja1_RVG.JPG",
     fromPrice: 210,
   },
   {
@@ -109,7 +109,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Santorini",
     country: "Greece",
     tagline: "Caldera villages, blue domes, and volcanic cliffs",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Oia_Santorini_Blue_Domes.jpg/1200px-Oia_Santorini_Blue_Domes.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Oia_Santorini_Blue_Domes.jpg/1280px-Oia_Santorini_Blue_Domes.jpg",
     fromPrice: 260,
   },
   {
@@ -117,7 +117,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Rome",
     country: "Italy",
     tagline: "Ruins, trattorias, and evenings on cobblestone",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Colosseum_in_rome.jpg/1200px-Colosseum_in_rome.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Colosseum_in_rome.jpg/1280px-Colosseum_in_rome.jpg",
     fromPrice: 190,
   },
   {
@@ -125,7 +125,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Barcelona",
     country: "Spain",
     tagline: "Gothic alleys, Gaudi facades, and late dinners",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sagrada_familia_BCN_01.jpg/1200px-Sagrada_familia_BCN_01.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sagrada_familia_BCN_01.jpg/1280px-Sagrada_familia_BCN_01.jpg",
     fromPrice: 170,
   },
   {
@@ -133,7 +133,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Paris",
     country: "France",
     tagline: "Zinc rooftops, corner cafes, and river walks",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1200px-Tour_Eiffel_Wikimedia_Commons.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg",
     fromPrice: 240,
   },
   {
@@ -141,7 +141,7 @@ export const DESTINATIONS: Destination[] = [
     name: "New York City",
     country: "United States",
     tagline: "Avenue blocks, corner delis, and rooftop skylines",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/New_York_City_skyline.jpg/1200px-New_York_City_skyline.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/New_York_City_skyline.jpg/1280px-New_York_City_skyline.jpg",
     fromPrice: 320,
   },
   {
@@ -149,7 +149,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Mexico City",
     country: "Mexico",
     tagline: "Mural-lined avenues, taquerias, and jacaranda streets",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Cathedral_of_Mexico_City_IMG_7049.JPG/1200px-Cathedral_of_Mexico_City_IMG_7049.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Cathedral_of_Mexico_City_IMG_7049.JPG/1280px-Cathedral_of_Mexico_City_IMG_7049.JPG",
     fromPrice: 110,
   },
   {
@@ -157,7 +157,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Rio de Janeiro",
     country: "Brazil",
     tagline: "Beach promenades, granite peaks, and samba nights",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Christ_the_Redeemer_statue_at_Corcovado.JPG/1200px-Christ_the_Redeemer_statue_at_Corcovado.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Christ_the_Redeemer_statue_at_Corcovado.JPG/1280px-Christ_the_Redeemer_statue_at_Corcovado.JPG",
     fromPrice: 145,
   },
   {
@@ -165,7 +165,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Buenos Aires",
     country: "Argentina",
     tagline: "Tango bars, steakhouses, and wide boulevards",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Obelisco_en_Buenos_Aires.JPG/1200px-Obelisco_en_Buenos_Aires.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Obelisco_en_Buenos_Aires.JPG/1280px-Obelisco_en_Buenos_Aires.JPG",
     fromPrice: 120,
   },
   {
@@ -173,7 +173,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Sydney",
     country: "Australia",
     tagline: "Harbour ferries, ocean pools, and sandstone cliffs",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sydney_Opera_House%2C_Sydney.jpg/1200px-Sydney_Opera_House%2C_Sydney.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sydney_Opera_House%2C_Sydney.jpg/1280px-Sydney_Opera_House%2C_Sydney.jpg",
     fromPrice: 230,
   },
   {
@@ -181,7 +181,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Queenstown",
     country: "New Zealand",
     tagline: "Alpine lakes, vineyards, and mountain trails",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Queenstown_and_Lake_Wakatipu.JPG/1200px-Queenstown_and_Lake_Wakatipu.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Queenstown_and_Lake_Wakatipu.JPG/1280px-Queenstown_and_Lake_Wakatipu.JPG",
     fromPrice: 195,
   },
   {
@@ -189,7 +189,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Dubai",
     country: "United Arab Emirates",
     tagline: "Desert dunes, souks, and glass towers by the Gulf",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg/1200px-Dubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Dubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg/1280px-Dubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg",
     fromPrice: 270,
   },
   {
@@ -197,7 +197,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Istanbul",
     country: "Turkey",
     tagline: "Bazaars, ferries, and minarets over two continents",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Istanbul_Hagia_Sophia_Sultanahmed.JPG/1200px-Istanbul_Hagia_Sophia_Sultanahmed.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Istanbul_Hagia_Sophia_Sultanahmed.JPG/1280px-Istanbul_Hagia_Sophia_Sultanahmed.JPG",
     fromPrice: 130,
   },
   {
@@ -205,7 +205,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Cusco",
     country: "Peru",
     tagline: "Inca stonework, mountain air, and the gateway to Machu Picchu",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ciudad_de_Cusco.jpg/1200px-Ciudad_de_Cusco.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ciudad_de_Cusco.jpg/1280px-Ciudad_de_Cusco.jpg",
     fromPrice: 95,
   },
   {
@@ -213,7 +213,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Nairobi",
     country: "Kenya",
     tagline: "Leafy suburbs, rooftop bars, and a national park at the edge of town",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Nairobi_skyline.jpg/1200px-Nairobi_skyline.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Nairobi_skyline.jpg/1280px-Nairobi_skyline.jpg",
     fromPrice: 55,
   },
   {
@@ -221,7 +221,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Accra",
     country: "Ghana",
     tagline: "Beach bars, art markets, and Atlantic sunsets",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Independence_Square%2C_Accra%2C_Ghana.JPG/1200px-Independence_Square%2C_Accra%2C_Ghana.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Independence_Square%2C_Accra%2C_Ghana.JPG/1280px-Independence_Square%2C_Accra%2C_Ghana.JPG",
     fromPrice: 60,
   },
   {
@@ -229,7 +229,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Lagos",
     country: "Nigeria",
     tagline: "Island nightlife, lagoon views, and a skyline that never fully sleeps",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Third_Mainland_Bridge.jpg/1200px-Third_Mainland_Bridge.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Third_Mainland_Bridge.jpg/1280px-Third_Mainland_Bridge.jpg",
     fromPrice: 70,
   },
   {
@@ -237,7 +237,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kigali",
     country: "Rwanda",
     tagline: "Hillside streets, gallery cafes, and the cleanest capital on the continent",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Kigali.jpg/1200px-Kigali.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Kigali.jpg/1280px-Kigali.jpg",
     fromPrice: 65,
   },
   {
@@ -245,7 +245,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Victoria Falls",
     country: "Zambia",
     tagline: "Spray-soaked cliffs, riverside lodges, and the loudest waterfall in Africa",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vic_Falls_2024.jpg/1200px-Vic_Falls_2024.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vic_Falls_2024.jpg/1280px-Vic_Falls_2024.jpg",
     fromPrice: 90,
   },
   {
@@ -253,7 +253,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Essaouira",
     country: "Morocco",
     tagline: "Windswept ramparts, blue fishing boats, and a medina by the Atlantic",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ramparts_of_Essaouira.JPG/1200px-Ramparts_of_Essaouira.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Ramparts_of_Essaouira.JPG/1280px-Ramparts_of_Essaouira.JPG",
     fromPrice: 60,
   },
   {
@@ -261,7 +261,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Dakar",
     country: "Senegal",
     tagline: "Cliffside coastline, live mbalax, and colorful ferry crossings",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_African_Renaissance_Monument.jpg/1200px-The_African_Renaissance_Monument.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_African_Renaissance_Monument.jpg/1280px-The_African_Renaissance_Monument.jpg",
     fromPrice: 75,
   },
   {
@@ -269,7 +269,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Addis Ababa",
     country: "Ethiopia",
     tagline: "Highland air, coffee ceremonies, and a city built across seven hills",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Addis_Ababa_City_view.jpg/1200px-Addis_Ababa_City_view.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Addis_Ababa_City_view.jpg/1280px-Addis_Ababa_City_view.jpg",
     fromPrice: 50,
   },
   {
@@ -277,7 +277,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Serengeti",
     country: "Tanzania",
     tagline: "Endless plains, the great migration, and skies with nothing in the way",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Wildebeest_Migration_in_Serengeti_National_Park%2C_Tanzania.jpg/1200px-Wildebeest_Migration_in_Serengeti_National_Park%2C_Tanzania.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Wildebeest_Migration_in_Serengeti_National_Park%2C_Tanzania.jpg/1280px-Wildebeest_Migration_in_Serengeti_National_Park%2C_Tanzania.jpg",
     fromPrice: 180,
   },
   {
@@ -285,7 +285,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Swakopmund",
     country: "Namibia",
     tagline: "German colonial streets where the Namib dunes meet the cold Atlantic",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Swakopmund_%28Namibia%29.jpg/1200px-Swakopmund_%28Namibia%29.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Swakopmund_%28Namibia%29.jpg/1280px-Swakopmund_%28Namibia%29.jpg",
     fromPrice: 90,
   },
   {
@@ -293,7 +293,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Cairo",
     country: "Egypt",
     tagline: "The Nile, the old souks, and the last standing wonder of the ancient world",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1200px-All_Gizah_Pyramids.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1280px-All_Gizah_Pyramids.jpg",
     fromPrice: 70,
   },
   {
@@ -301,7 +301,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kruger National Park",
     country: "South Africa",
     tagline: "Big Five country, dawn game drives, and bushveld that goes quiet at dusk",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kruger_N.P._04.jpg/1200px-Kruger_N.P._04.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kruger_N.P._04.jpg/1280px-Kruger_N.P._04.jpg",
     fromPrice: 150,
   },
   {
@@ -309,7 +309,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Lilongwe",
     country: "Malawi",
     tagline: "The calm capital and the gateway to the Lake of Stars",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Lilongwe_%28Malawi%29_-_crafts_market.JPG/1200px-Lilongwe_%28Malawi%29_-_crafts_market.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Lilongwe_%28Malawi%29_-_crafts_market.JPG/1280px-Lilongwe_%28Malawi%29_-_crafts_market.JPG",
     fromPrice: 55,
   },
   {
@@ -318,7 +318,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Qatar",
     tagline: "Corniche skyline, souq alleys, and desert day trips outside the city",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Skyline_of_Doha_West_Bay.jpg/1200px-Skyline_of_Doha_West_Bay.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Skyline_of_Doha_West_Bay.jpg/1280px-Skyline_of_Doha_West_Bay.jpg",
     fromPrice: 30,
   },
   {
@@ -327,7 +327,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Kuwait",
     tagline: "Gulf waterfront, historic dhows, and the Towers lit up after dark",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kuwait_City_Skyline_1.jpg/1200px-Kuwait_City_Skyline_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kuwait_City_Skyline_1.jpg/1280px-Kuwait_City_Skyline_1.jpg",
     fromPrice: 28,
   },
   {
@@ -336,7 +336,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Oman",
     tagline: "Whitewashed old town wedged between the Hajar mountains and the sea",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/MutrahDecor.JPG/1200px-MutrahDecor.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/MutrahDecor.JPG/1280px-MutrahDecor.JPG",
     fromPrice: 26,
   },
   {
@@ -345,7 +345,7 @@ export const DESTINATIONS: Destination[] = [
     country: "Uganda",
     tagline: "Seven hills, lakeside markets, and the gateway to gorilla country",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Uganda_-_Downtown_Kampala.jpg/1200px-Uganda_-_Downtown_Kampala.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Uganda_-_Downtown_Kampala.jpg/1280px-Uganda_-_Downtown_Kampala.jpg",
     fromPrice: 20,
   },
   {
@@ -353,7 +353,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Juba",
     country: "South Sudan",
     tagline: "The White Nile's riverside capital, still finding its rhythm",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Juba_City.jpg/1200px-Juba_City.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Juba_City.jpg/1280px-Juba_City.jpg",
     fromPrice: 22,
   },
   {
@@ -361,7 +361,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Maputo",
     country: "Mozambique",
     tagline: "Portuguese-tiled avenues, prawn markets, and an Indian Ocean waterfront",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maputo.jpg/1200px-Maputo.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Maputo.jpg/1280px-Maputo.jpg",
     fromPrice: 24,
   },
   {
@@ -369,7 +369,7 @@ export const DESTINATIONS: Destination[] = [
     name: "Kinshasa",
     country: "DR Congo",
     tagline: "The Congo River's sprawling capital, music spilling out of every corner",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kinshasa_city.jpg/1200px-Kinshasa_city.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Kinshasa_city.jpg/1280px-Kinshasa_city.jpg",
     fromPrice: 25,
   },
 ];
