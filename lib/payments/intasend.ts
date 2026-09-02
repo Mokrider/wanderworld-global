@@ -73,6 +73,14 @@ export const intasendProvider: PaymentProvider = {
     const data = await res.json();
 
     if (!res.ok || !data.url) {
+      // Visible in Vercel's Runtime Logs (not sent to the browser) — the
+      // client-facing message below is a best-effort guess at IntaSend's
+      // response shape, so this is the source of truth when it's wrong.
+      console.error("IntaSend checkout failed", {
+        status: res.status,
+        body: data,
+      });
+
       // IntaSend's API is Django REST Framework-based: validation failures
       // come back as { field_name: ["error", ...] } rather than a single
       // detail/message string, so those get missed without this check —
@@ -89,7 +97,7 @@ export const intasendProvider: PaymentProvider = {
           data?.message ??
           (fieldErrors.length > 0
             ? fieldErrors.join("; ")
-            : "IntaSend checkout initialization failed.")
+            : `IntaSend checkout initialization failed (HTTP ${res.status}).`)
       );
     }
 
