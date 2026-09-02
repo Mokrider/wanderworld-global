@@ -22,7 +22,12 @@ async function getUsdRate(targetCurrency: string): Promise<number> {
   }
 
   try {
-    const res = await fetch("https://open.er-api.com/v6/latest/USD");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 4000);
+    const res = await fetch("https://open.er-api.com/v6/latest/USD", {
+      signal: controller.signal,
+    });
+    clearTimeout(timeout);
     const data = await res.json();
     const rate = data?.rates?.[targetCurrency];
     if (typeof rate === "number" && rate > 0) {
