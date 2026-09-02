@@ -45,6 +45,13 @@ export const intasendProvider: PaymentProvider = {
     const targetCurrency = process.env.INTASEND_CURRENCY || "KES";
     const amount = await convertCurrency(input.amount, input.currency, targetCurrency);
 
+    // IntaSend's Checkout API requires first_name/last_name as separate
+    // fields — a single combined name isn't accepted. Split on the first
+    // space; anything without a space (a mononym) becomes both first and
+    // last name, which IntaSend's validation accepts.
+    const [firstName, ...rest] = input.customerName.trim().split(/\s+/);
+    const lastName = rest.length > 0 ? rest.join(" ") : firstName;
+
     const res = await fetch(`${getBaseUrl()}/checkout/`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -53,6 +60,8 @@ export const intasendProvider: PaymentProvider = {
         amount: Math.round(amount * 100) / 100,
         currency: targetCurrency,
         email: input.customerEmail,
+        first_name: firstName,
+        last_name: lastName,
         phone_number: input.customerPhone,
         api_ref: apiRef,
         redirect_url: input.successUrl,
@@ -64,7 +73,24 @@ export const intasendProvider: PaymentProvider = {
     const data = await res.json();
 
     if (!res.ok || !data.url) {
-      throw new Error(data?.detail ?? data?.message ?? "IntaSend checkout initialization failed.");
+      // IntaSend's API is Django REST Framework-based: validation failures
+      // come back as { field_name: ["error", ...] } rather than a single
+      // detail/message string, so those get missed without this check —
+      // surfacing them here instead of the generic fallback below made
+      // this bug diagnosable in the first place.
+      const fieldErrors = Object.entries(data ?? {})
+        .filter(([key]) => !["detail", "message", "url"].includes(key))
+        .flatMap(([key, val]) =>
+          Array.isArray(val) ? val.map((v) => `${key}: ${v}`) : []
+        );
+
+      throw new Error(
+        data?.detail ??
+          data?.message ??
+          (fieldErrors.length > 0
+            ? fieldErrors.join("; ")
+            : "IntaSend checkout initialization failed.")
+      );
     }
 
     return {

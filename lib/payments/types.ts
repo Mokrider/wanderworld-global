@@ -12,6 +12,7 @@ export type CheckoutInput = {
   amount: number; // major currency unit, e.g. 231.50 for $231.50
   currency: string; // ISO 4217, e.g. "USD", "KES"
   customerEmail: string;
+  customerName: string;
   /** Required for M-Pesa (STK push target). Ignored by other providers. */
   customerPhone?: string;
   description: string;

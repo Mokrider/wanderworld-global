@@ -107,6 +107,7 @@ export async function POST(req: NextRequest) {
       amount: total,
       currency,
       customerEmail: input.payerEmail ?? input.guestEmail,
+      customerName: input.payerName ?? input.guestName,
       customerPhone: input.guestPhone,
       description: `${hotel.name} — ${booking.nights} night${booking.nights > 1 ? "s" : ""}`,
       successUrl: `${origin}/booking/confirmation?bookingId=${booking.id}`,
