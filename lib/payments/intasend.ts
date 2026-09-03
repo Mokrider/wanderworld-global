@@ -9,7 +9,7 @@ import { convertCurrency } from "@/lib/fx";
  * unlike Stripe, which doesn't operate in Kenya at all, and unlike
  * Paystack, which generally expects a registered business.
  *
- * Restricted to M-Pesa only (via the `method: "MPESA_STK_PUSH"` field
+ * Restricted to M-Pesa only (via the `method: "M-PESA"` field
  * IntaSend's Checkout API supports) rather than showing the full
  * card/M-Pesa/bank picker — customers land straight on the phone-number
  * entry step instead of choosing a method first. See:
@@ -66,7 +66,7 @@ export const intasendProvider: PaymentProvider = {
         api_ref: apiRef,
         redirect_url: input.successUrl,
         // Locks the hosted page to M-Pesa only — no card/bank picker.
-        method: "MPESA_STK_PUSH",
+        method: "M-PESA",
       }),
     });
 
