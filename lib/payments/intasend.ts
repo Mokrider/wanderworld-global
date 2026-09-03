@@ -81,23 +81,41 @@ export const intasendProvider: PaymentProvider = {
         body: data,
       });
 
-      // IntaSend's API is Django REST Framework-based: validation failures
-      // come back as { field_name: ["error", ...] } rather than a single
-      // detail/message string, so those get missed without this check —
-      // surfacing them here instead of the generic fallback below made
-      // this bug diagnosable in the first place.
-      const fieldErrors = Object.entries(data ?? {})
-        .filter(([key]) => !["detail", "message", "url"].includes(key))
-        .flatMap(([key, val]) =>
-          Array.isArray(val) ? val.map((v) => `${key}: ${v}`) : []
-        );
+      // IntaSend's Checkout API returns validation failures as either:
+      //  (a) { type: "validation_error", errors: [{ field, message }, ...] }
+      //  (b) { field_name: ["error", ...] } (older DRF-style, flat)
+      // depending on the endpoint/API version — handle both rather than
+      // assuming array entries are always plain strings.
+      let readableError: string | undefined;
+
+      if (Array.isArray(data?.errors)) {
+        readableError = data.errors
+          .map((e: unknown) => {
+            if (e && typeof e === "object") {
+              const entry = e as Record<string, unknown>;
+              const field = entry.field ?? entry.attr ?? entry.code;
+              const message = entry.message ?? entry.detail ?? JSON.stringify(entry);
+              return field ? `${field}: ${message}` : String(message);
+            }
+            return String(e);
+          })
+          .join("; ");
+      } else {
+        const fieldErrors = Object.entries(data ?? {})
+          .filter(([key]) => !["detail", "message", "url", "type"].includes(key))
+          .flatMap(([key, val]) =>
+            Array.isArray(val) && val.every((v) => typeof v !== "object")
+              ? val.map((v) => `${key}: ${v}`)
+              : []
+          );
+        if (fieldErrors.length > 0) readableError = fieldErrors.join("; ");
+      }
 
       throw new Error(
         data?.detail ??
           data?.message ??
-          (fieldErrors.length > 0
-            ? fieldErrors.join("; ")
-            : `IntaSend checkout initialization failed (HTTP ${res.status}).`)
+          readableError ??
+          `IntaSend checkout initialization failed (HTTP ${res.status}).`
       );
     }
 
