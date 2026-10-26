@@ -20,7 +20,19 @@ const interTight = Inter_Tight({
   display: "swap",
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+   function getSiteUrl(): string {
+     const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+     if (!raw) return "http://localhost:3000";
+     const withScheme = /^https?:\/\//.test(raw) ? raw : `https://${raw}`;
+     try {
+       new URL(withScheme);
+       return withScheme;
+     } catch {
+       return "http://localhost:3000";
+     }
+   }
+
+   const SITE_URL = getSiteUrl();
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
